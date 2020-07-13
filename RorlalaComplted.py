@@ -44,11 +44,11 @@ driver = webdriver.Chrome(options=options, executable_path=CHROMEDRIVER_PATH)
 driver.get('https://104i-sgapp.teleows.com/app/portal/loadPortal.action')
 username = driver.find_element_by_id("usernameInput")
 username.clear()
-username.send_keys("W2446689289")
+username.send_keys("")
 
 password = driver.find_element_by_id("password")
 password.clear()
-password.send_keys("123@SedeR19")
+password.send_keys("")
 
 driver.find_element_by_id("btn_submit").click()
 
